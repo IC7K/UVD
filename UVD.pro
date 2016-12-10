@@ -36,6 +36,7 @@ HEADERS  += mainwindow.h \
     tuner_r82xx.h \
     reg_field.h \
     ioctl.h \
-    select.h
+    select.h \
+    mysignal.h
 
 FORMS    += mainwindow.ui

@@ -32,7 +32,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include <stdint.h>
 #include <errno.h>
 #include <unistd.h>
 #include <math.h>
@@ -49,6 +48,8 @@
 #include "anet.h"
 
 #include <stdint-gcc.h>
+//#include <signal.h>
+#include <mysignal.h>
 
 #define MODES_DEFAULT_RATE         2000000 //разрешение 0.5мкс
 #define MODES_DEFAULT_FREQ         740000000
